@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.venv/
+.pytest_cache/
+
+# Environment Secrets
+.env
+
+# Data, Cache & Local Storage
+data/
+logs/
+chat_conversations/
+
+# Evaluation dynamic output files
+evaluations/*.json
+
+# IDE / Editor Configs
+.vscode/
+.idea/
+.DS_Store
